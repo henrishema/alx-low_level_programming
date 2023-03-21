@@ -14,8 +14,10 @@ int main(void)
 	{
 		putchar(ch);
 		ch++;
-		if (ch == 'e' && ch == 'q')
+		if ((ch == 'e') && (ch == 'q'))
+		{
 			continue;
+		}
 	}
 	return (0);
 }
