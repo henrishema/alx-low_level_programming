@@ -12,10 +12,9 @@ int main(void)
 	ch = 'a';
 	while (ch <= 'z')
 	{
-		putchar(ch);
-		if ((ch == 'e') && (ch == 'q'))
+		if ((ch != 'e') && (ch != 'q'))
 		{
-			continue;
+			putchar(ch);
 		}
 		ch++;
 	}
