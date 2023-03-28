@@ -3,7 +3,7 @@
 
 /**
  * _isupper - function to determine upper case
- *
+ * @c: print int
  * Return: 1 if upper and 0 if not
  */
 int _isupper(int c)
