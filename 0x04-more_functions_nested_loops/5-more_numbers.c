@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * more_numbers - print numbers
@@ -6,7 +7,7 @@
  * Return: always 0
  */
 
-void more _numbers(void)
+void more_numbers(void)
 {
 	int i;
 	int j;
@@ -16,6 +17,7 @@ void more _numbers(void)
 		for (j = 0; j <= 14; j++)
 		{
 			_putchar ('0' + j);
+
 		}
 		_putchar ('\n');
 	}
