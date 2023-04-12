@@ -1,5 +1,6 @@
 #include "main.h"
-
+int num_words(char *str);
+int len(char *str);
 /**
  * strtow - splits a stirng into words
  * @str: string to be splitted
